@@ -1,0 +1,15 @@
+.board {
+  width: 100%;
+  padding: 2rem 0;
+  position: relative;
+
+  &__grid {
+    flex: 4;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1rem;
+    user-select: none;
+    position: relative;
+  }
+}

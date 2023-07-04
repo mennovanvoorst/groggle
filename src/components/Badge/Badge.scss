@@ -1,0 +1,14 @@
+@use '../../styles/colors';
+
+.badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+
+  &--success {
+    background: colors.$success;
+  }
+
+  &--error {
+    background: colors.$error;
+  }
+}

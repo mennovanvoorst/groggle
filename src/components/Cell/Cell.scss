@@ -1,0 +1,22 @@
+@use '../../styles/colors';
+
+.cell {
+  border: 4px solid colors.$border;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: bold;
+  vertical-align: middle;
+  text-transform: uppercase;
+  aspect-ratio: 1 / 1;
+  border-radius: 8px;
+
+  &:hover,
+  &--selected {
+    background-color: colors.$primary;
+    border-color: colors.$primary;
+  }
+}

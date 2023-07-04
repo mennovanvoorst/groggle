@@ -1,0 +1,7 @@
+@use './colors';
+
+.card {
+  padding: 2rem;
+  background-color: colors.$border;
+  border-radius: 1rem;
+}

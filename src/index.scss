@@ -1,0 +1,15 @@
+@use 'styles/colors';
+@use 'styles/typography';
+@use 'styles/animate';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: typography.$base-text;
+  background: colors.$bg-dark;
+  font-family: typography.$base-font;
+  color: colors.$text;
+}
